@@ -1,0 +1,98 @@
+let shopItemsData = [
+  {
+    id: "hoodie",
+    name: "hoodie",
+    price: 65,
+    img: "images/hoodie.jpg",
+  },
+  {
+    id: "pants",
+    name: "pants",
+    price: 50,
+    img: "images/pants.jpg",
+  },
+  {
+    id: "shirt",
+    name: "shirt",
+    price: 25,
+    img: "images/shirt.jpg",
+  },
+  {
+    id: "jacket",
+    name: "jacket",
+    price: 100,
+    img: "images/jacket.jpg",
+  },
+  {
+    id: "coat",
+    name: "coat",
+    price: 150,
+    img: "images/coat.jpg",
+  },
+  {
+    id: "gaming-chair",
+    name: "gaming chair",
+    price: 700,
+    img: "images/gaming-chair.jpg",
+  },
+  {
+    id: "hp-laptop",
+    name: "hp laptop",
+    price: 1000,
+    img: "images/hp-laptop.jpg",
+  },
+  {
+    id: "ipad-air",
+    name: "ipad air",
+    price: 800,
+    img: "images/ipad-air.jpg",
+  },
+  {
+    id: "iphone-14",
+    name: "iphone 14",
+    price: 1300,
+    img: "images/iphone-14.jpg",
+  },
+  {
+    id: "keyboard",
+    name: "keyboard",
+    price: 200,
+    img: "images/keyboard.jpg",
+  },
+  {
+    id: "mouse",
+    name: "mouse",
+    price: 75,
+    img: "images/mouse.jpg",
+  },
+  {
+    id: "nike-shoes",
+    name: "nike shoes",
+    price: 300,
+    img: "images/nike-shoes.jpg",
+  },
+  {
+    id: "razer-headset",
+    name: "razer headset",
+    price: 60,
+    img: "images/razer-headset.jpg",
+  },
+  {
+    id: "table",
+    name: "table",
+    price: 250,
+    img: "images/table.jpg",
+  },
+  {
+    id: "rolex-watch",
+    name: "rolex watch",
+    price: 450,
+    img: "images/rolex-watch.jpg",
+  },
+  {
+    id: "macbook",
+    name: "macbook",
+    price: 1200,
+    img: "images/macbook.jpg",
+  },
+];
