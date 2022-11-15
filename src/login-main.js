@@ -19,7 +19,7 @@ function getInfo() {
 
   for (var i = 0; i < objPeople.length; i++) {
     if (email == objPeople[i].email && password == objPeople[i].password) {
-      window.location.href = "./index.html";
+      window.location.href = "./shop.html";
     }
   }
 }
