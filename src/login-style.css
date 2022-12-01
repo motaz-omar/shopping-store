@@ -100,7 +100,7 @@ body {
 .form {
   width: 100%;
 }
-@media (min-width: 400px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 800px) {
   #h {
     grid-template-columns: 1fr;
   }
