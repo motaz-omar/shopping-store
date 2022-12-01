@@ -1,4 +1,9 @@
+html {
+  height: 100%;
+}
 body {
+  height: 100%;
+
   --color-primary: #009579;
   --color-primary-dark: #007f67;
   --color-secondary: #252c6a;
@@ -10,9 +15,10 @@ body {
     rgba(255, 0, 0, 0.767) 0%,
     rgba(255, 251, 0, 0.863) 100%
   );
+  background-repeat: no-repeat;
 }
 #error-message {
-  display: block;
+  display: none;
   color: rgb(255, 61, 61);
   text-align: center;
 }

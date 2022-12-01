@@ -3,9 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  height: 100%;
+}
 body {
+  height: 100%;
   font-family: sans-serif;
+  background-repeat: no-repeat;
   background-image: linear-gradient(
     115deg,
     rgba(255, 0, 0, 0.767) 0%,
@@ -172,4 +176,9 @@ li {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+}
+@media (min-width: 400px) and (max-width: 720px) {
+  #shop {
+    grid-template-columns: repeat(2, 223px);
+  }
 }

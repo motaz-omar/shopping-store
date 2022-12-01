@@ -25,7 +25,6 @@ function getInfo() {
       window.location.href = "./shop.html";
     } else {
       document.getElementById("error-message").style.display = "block";
-      alert("hi");
     }
   }
 }
