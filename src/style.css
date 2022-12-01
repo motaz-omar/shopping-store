@@ -175,7 +175,8 @@ li {
 }
 @media (min-width: 400px) and (max-width: 500px) {
   body {
-    height: 1000px;
+    height: 800px;
+    background-color: black;
   }
   #shop {
     grid-template-columns: repeat(2, 223px);
