@@ -177,7 +177,7 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
-@media (min-width: 400px) and (max-width: 720px) {
+@media (min-width: 300px) and (max-width: 800px) {
   #shop {
     grid-template-columns: repeat(1, 223px);
   }
