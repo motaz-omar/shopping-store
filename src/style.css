@@ -173,12 +173,3 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
-@media (min-width: 400px) and (max-width: 720px) {
-  body {
-    height: 800px;
-    background-color: black;
-  }
-  #shop {
-    grid-template-columns: repeat(2, 223px);
-  }
-}

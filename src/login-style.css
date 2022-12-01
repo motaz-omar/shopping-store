@@ -85,3 +85,12 @@ body {
   border: 2px black solid;
   padding: 15px;
 }
+@media (min-width: 400px) and (max-width: 720px) {
+  body {
+    height: 800px;
+    background-color: black;
+  }
+  #shop {
+    grid-template-columns: repeat(2, 223px);
+  }
+}
