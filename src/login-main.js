@@ -23,8 +23,9 @@ function getInfo() {
       password == objPeople[i].password
     ) {
       window.location.href = "./shop.html";
+      return;
     } else {
-      document.getElementById("error-message").style.display = "block";
     }
   }
+  document.getElementById("error-message").style.display = "block";
 }
