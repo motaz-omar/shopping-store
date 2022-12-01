@@ -11,7 +11,11 @@ body {
     rgba(255, 251, 0, 0.863) 100%
   );
 }
-
+#error-message {
+  display: block;
+  color: rgb(255, 61, 61);
+  text-align: center;
+}
 .container {
   margin: 2.5rem auto 0px auto;
 

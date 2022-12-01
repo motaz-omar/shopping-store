@@ -55,6 +55,7 @@ a {
 #shop {
   display: none;
   grid-template-columns: repeat(4, 223px);
+
   gap: 30px;
   justify-content: center;
 }
@@ -171,4 +172,12 @@ li {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  body {
+    height: 1000px;
+  }
+  #shop {
+    grid-template-columns: repeat(2, 223px);
+  }
 }

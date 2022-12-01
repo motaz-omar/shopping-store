@@ -18,8 +18,14 @@ function getInfo() {
   var password = document.getElementById("password").value;
 
   for (var i = 0; i < objPeople.length; i++) {
-    if (email == objPeople[i].email && password == objPeople[i].password) {
+    if (
+      email.toLocaleLowerCase == objPeople[i].email.toLocaleLowerCase &&
+      password == objPeople[i].password
+    ) {
       window.location.href = "./shop.html";
+    } else {
+      document.getElementById("error-message").style.display = "block";
+      alert("hi");
     }
   }
 }
