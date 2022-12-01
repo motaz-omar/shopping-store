@@ -23,6 +23,7 @@ body {
   text-align: center;
 }
 .container {
+  width: 100%;
   margin: 2.5rem auto 0px auto;
 
   width: 400px;
@@ -84,12 +85,17 @@ body {
   justify-content: center;
 }
 #h {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .border {
+  width: 100%;
   border: 2px black solid;
   padding: 15px;
+}
+.form {
+  width: 100%;
 }
 @media (min-width: 400px) and (max-width: 500px) {
 }
