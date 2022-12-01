@@ -3,11 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  height: 100%;
-}
 body {
-  height: 100%;
+  min-height: 100vh;
 
   --color-primary: #009579;
   --color-primary-dark: #007f67;
@@ -91,8 +88,9 @@ body {
 }
 #h {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
 }
 .border {
   width: 100%;
@@ -102,5 +100,8 @@ body {
 .form {
   width: 100%;
 }
-@media (min-width: 400px) and (max-width: 500px) {
+@media (min-width: 400px) and (max-width: 800px) {
+  #h {
+    grid-template-columns: 1fr;
+  }
 }

@@ -5,6 +5,8 @@
 }
 
 body {
+  min-height: 100vh;
+
   font-family: sans-serif;
   background-repeat: no-repeat;
   background-image: linear-gradient(
