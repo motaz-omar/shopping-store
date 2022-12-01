@@ -179,6 +179,6 @@ li {
 }
 @media (min-width: 400px) and (max-width: 720px) {
   #shop {
-    grid-template-columns: repeat(2, 223px);
+    grid-template-columns: repeat(1g, 223px);
   }
 }
