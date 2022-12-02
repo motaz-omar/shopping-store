@@ -1,6 +1,6 @@
 var objPeople = [
   {
-    email: "ooaa",
+    email: "sam.1988@gmail.com",
     password: "axds4w",
   },
   {
@@ -20,11 +20,10 @@ function getInfo() {
   for (var i = 0; i < objPeople.length; i++) {
     if (
       email.toLocaleLowerCase == objPeople[i].email.toLocaleLowerCase &&
-      password == objPeople[i].password
+      password.toLocaleLowerCase == objPeople[i].password.toLocaleLowerCase
     ) {
       window.location.href = "./shop.html";
       return;
-    } else {
     }
   }
   document.getElementById("error-message").style.display = "block";

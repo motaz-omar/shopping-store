@@ -81,11 +81,10 @@ body {
 .form-button:hover {
   background: var(--color-primary-dark);
 }
-.j {
-  display: flex;
-  justify-content: center;
+.title {
+  text-align: center;
 }
-#h {
+.accounts-passwords {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -99,7 +98,7 @@ body {
 .form {
   width: 100%;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 500px) {
   body {
     font-size: 10px;
   }
