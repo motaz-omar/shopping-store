@@ -102,7 +102,7 @@ body {
   body {
     font-size: 10px;
   }
-  #accounts-passwords {
+  .accounts-passwords {
     grid-template-columns: 1fr;
   }
 }
