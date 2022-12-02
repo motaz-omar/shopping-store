@@ -19,8 +19,8 @@ function getInfo() {
 
   for (var i = 0; i < objPeople.length; i++) {
     if (
-      email.toLocaleLowerCase == objPeople[i].email.toLocaleLowerCase &&
-      password.toLocaleLowerCase == objPeople[i].password.toLocaleLowerCase
+      email.toLocaleLowerCase() == objPeople[i].email.toLocaleLowerCase() &&
+      password.toLocaleLowerCase() == objPeople[i].password.toLocaleLowerCase()
     ) {
       window.location.href = "./shop.html";
       return;
