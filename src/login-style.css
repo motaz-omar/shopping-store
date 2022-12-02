@@ -98,7 +98,7 @@ body {
 .form {
   width: 100%;
 }
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 600px) {
   body {
     font-size: 10px;
   }
