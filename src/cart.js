@@ -5,7 +5,7 @@ let basket = JSON.parse(localStorage.getItem("data")) || [];
 
 let calculation = () => {
   let cartIcon = document.getElementById("cartAmount");
-  cartIcon.innerHTML = basket.map((x) => x.item).reduce((x, y) => x + y, 0);
+  cartIcon.innerHTML = basket.map((x) => x.item).length;
 };
 
 calculation();
@@ -94,6 +94,7 @@ let removeItem = (id) => {
   let selectedItem = id;
   basket = basket.filter((x) => x.id !== selectedItem.id);
   generateCartItems();
+  calculation();
   TotalAmount();
   localStorage.setItem("data", JSON.stringify(basket));
 };
@@ -102,6 +103,7 @@ let clearCart = () => {
   basket = [];
   generateCartItems();
   localStorage.setItem("data", JSON.stringify(basket));
+  calculation();
 };
 
 let TotalAmount = () => {
